@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-class CategoryTest {
+public class CategoryTest {
 
     Category category;
 
@@ -15,7 +15,7 @@ class CategoryTest {
     }
 
     @Test
-    void getId() {
+    public void getId() {
         Long idValue = 4l;
 
         category.setId(4l);
@@ -23,12 +23,12 @@ class CategoryTest {
     }
 
     @Test
-    void getDescription() {
+    public void getDescription() {
 
     }
 
     @Test
-    void getRecipes() {
+    public void getRecipes() {
     }
 
 }
